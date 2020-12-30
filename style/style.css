@@ -67,7 +67,7 @@ h4 sup {
   font-weight: 600;
 }
 
-#hero {
+.hero {
   width: 100%;
   height: 100vh;
   position: relative;
@@ -75,7 +75,7 @@ h4 sup {
   background-attachment: fixed;
 }
 
-#hero .hero-container {
+.hero .hero-container {
   position: absolute;
   top: 0;
   left: 0;
@@ -99,25 +99,27 @@ h4 sup {
   color: white;
 }
 
-#hero .hero-container h1 {
+.hero .hero-container h1 {
   font-size: 48px;
   line-height: 56px;
+  letter-spacing: 2px;
 }
 
-#hero .hero-container h2 {
+.hero .hero-container h2 {
   font-size: 24px;
   margin-bottom: 40px;
   color: #c2c2c2;
 }
 
-#hero .hero-container h3 {
+.hero .hero-container h3 {
   background: rgba(255, 255, 255, 0.1);
   border-radius: 50px;
   padding: 10px 30px;
-  font-size: 26px;
+  font-size: 23px;
+  font-weight: 300;
 }
 
-#hero::before {
+.hero::before {
   content: "";
   position: absolute;
   top: 0;
@@ -125,5 +127,24 @@ h4 sup {
   bottom: 0;
   right: 0;
   background-color: rgba(0, 0, 0, 0.6);
+}
+
+.hero-started-link {
+  border: 2px solid white;
+  padding: 8px 30px;
+  text-decoration: none;
+  border-radius: 50px;
+  font-size: 15px;
+  color: white;
+  -webkit-transition: all 0.45s ease;
+  transition: all 0.45s ease;
+}
+
+.hero-started-link:hover {
+  -webkit-transition: all 0.55s ease;
+  transition: all 0.55s ease;
+  background-color: #e43c5c;
+  border-color: #e43c5c;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
