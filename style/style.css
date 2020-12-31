@@ -55,6 +55,12 @@ h4 sup {
   font-weight: bold;
   color: white !important;
   letter-spacing: 1px;
+  position: relative;
+}
+
+.navbar-brand #logo {
+  border-radius: 5px;
+  width: 230px;
 }
 
 .navbar .nav-item {
@@ -126,7 +132,7 @@ h4 sup {
   left: 0;
   bottom: 0;
   right: 0;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(31, 31, 31, 0.7);
 }
 
 .hero-started-link {
@@ -152,15 +158,19 @@ h4 sup {
   outline: none !important;
   border: none !important;
   color: transparent !important;
+  position: absolute;
+  left: 80%;
+  top: 38%;
 }
 
 .icofont-navigation-menu,
 .icofont-close {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 7px;
   -webkit-transition: all 2s ease;
   transition: all 2s ease;
-  color: #e43c5c !important;
+  color: white !important;
   position: relative;
 }
 
@@ -171,7 +181,7 @@ h4 sup {
   left: 0;
   right: 0;
   bottom: 0;
-  background: white;
+  border: 2px solid white;
   border-radius: 5px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -182,5 +192,56 @@ h4 sup {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.active_changed_logo {
+  display: inline-block !important;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+.active_changed_navbar {
+  background-color: #313131;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+@media (min-width: 992px) and (max-width: 1100px) {
+  .navbar .nav-link {
+    padding: 10px 0 10px 5px !important;
+  }
+}
+
+@media (max-width: 631px) {
+  #logo {
+    width: 200px !important;
+  }
+  #hero h1 {
+    font-size: 38px;
+  }
+  #hero h2 {
+    font-size: 20px;
+  }
+  #hero h3 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 300px) {
+  #logo {
+    width: 200px !important;
+  }
+  #hero h1 {
+    font-size: 30px;
+  }
+  #hero h2 {
+    font-size: 15px;
+  }
+  #hero h3 {
+    font-size: 15px;
+  }
+  #hero .hero-started-link {
+    padding: 5px 20px !important;
+  }
 }
 /*# sourceMappingURL=style.css.map */
