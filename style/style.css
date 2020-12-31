@@ -2,6 +2,15 @@ body {
   height: 200vh;
 }
 
+section {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.description_p {
+  width: 40%;
+}
+
 .section_title {
   text-align: center;
   padding-bottom: 30px;
@@ -189,6 +198,9 @@ h4 sup {
 }
 
 @media (min-width: 992px) and (max-width: 1100px) {
+  .description_p {
+    width: 40%;
+  }
   .navbar .nav-link {
     padding: 10px 0 10px 5px !important;
   }
@@ -210,6 +222,9 @@ h4 sup {
 }
 
 @media (max-width: 300px) {
+  .description_p {
+    width: 100% !important;
+  }
   #logo {
     width: 200px !important;
   }
