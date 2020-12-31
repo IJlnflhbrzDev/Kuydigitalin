@@ -52,12 +52,6 @@ h4 {
 
 .navbar {
   &-brand {
-    font-size: 30px !important;
-    font-weight: bold;
-    color: white !important;
-    letter-spacing: 1px;
-    position: relative;
-
     #logo {
       border-radius: 5px;
       width: 230px;
@@ -146,44 +140,29 @@ h4 {
 // active icont
 .navbar-toggler {
   outline: none !important;
-  border: none !important;
   color: transparent !important;
-  position: absolute;
-  left: 80%;
-  top: 38%;
+  width: 40px;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
 }
 .icofont-navigation-menu,
 .icofont-close {
-  padding-left: 20px; //memberi lebar kanan dan kiri
-  padding-right: 20px; //memberi lebar kanan dan kiri
-  padding-top: 7px;
-  transition: all 2s ease;
   color: white !important;
-  position: relative;
-  &::before {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    border: 2px solid white;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+  text-align: center;
+  font-size: 25px;
 }
 
 // =========================================== animated schroll changed navbar active toggle ===========================================
 
 .active_changed_logo {
   display: inline-block !important;
-  transition: all 1s ease-in-out;
+  transition: all 0.55s ease-in-out;
 }
 
 .active_changed_navbar {
   background-color: #313131;
-  transition: all 1s ease-in-out;
+  transition: all 0.55s ease-in-out;
 }
 
 // ====================responsive brekpoints ====================

@@ -50,14 +50,6 @@ h4 sup {
   left: -3px;
 }
 
-.navbar-brand {
-  font-size: 30px !important;
-  font-weight: bold;
-  color: white !important;
-  letter-spacing: 1px;
-  position: relative;
-}
-
 .navbar-brand #logo {
   border-radius: 5px;
   width: 230px;
@@ -156,54 +148,34 @@ h4 sup {
 
 .navbar-toggler {
   outline: none !important;
-  border: none !important;
   color: transparent !important;
-  position: absolute;
-  left: 80%;
-  top: 38%;
-}
-
-.icofont-navigation-menu,
-.icofont-close {
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 7px;
-  -webkit-transition: all 2s ease;
-  transition: all 2s ease;
-  color: white !important;
-  position: relative;
-}
-
-.icofont-navigation-menu::before,
-.icofont-close::before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  border: 2px solid white;
-  border-radius: 5px;
+  width: 40px;
+  border: 1px solid white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+}
+
+.icofont-navigation-menu,
+.icofont-close {
+  color: white !important;
+  text-align: center;
+  font-size: 25px;
 }
 
 .active_changed_logo {
   display: inline-block !important;
-  -webkit-transition: all 1s ease-in-out;
-  transition: all 1s ease-in-out;
+  -webkit-transition: all 0.55s ease-in-out;
+  transition: all 0.55s ease-in-out;
 }
 
 .active_changed_navbar {
   background-color: #313131;
-  -webkit-transition: all 1s ease-in-out;
-  transition: all 1s ease-in-out;
+  -webkit-transition: all 0.55s ease-in-out;
+  transition: all 0.55s ease-in-out;
 }
 
 @media (min-width: 992px) and (max-width: 1100px) {
