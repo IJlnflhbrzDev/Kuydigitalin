@@ -138,3 +138,30 @@ h4 {
     }
   }
 }
+
+// active icont
+.navbar-toggler {
+  outline: none !important;
+  border: none !important;
+  color: transparent !important;
+}
+.icofont-navigation-menu,
+.icofont-close {
+  padding-left: 15px; //memberi lebar kanan dan kiri
+  padding-right: 15px; //memberi lebar kanan dan kiri
+  transition: all 2s ease;
+  color: #e43c5c !important;
+  position: relative;
+  &::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

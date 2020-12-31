@@ -147,4 +147,40 @@ h4 sup {
   border-color: #e43c5c;
   color: white;
 }
+
+.navbar-toggler {
+  outline: none !important;
+  border: none !important;
+  color: transparent !important;
+}
+
+.icofont-navigation-menu,
+.icofont-close {
+  padding-left: 15px;
+  padding-right: 15px;
+  -webkit-transition: all 2s ease;
+  transition: all 2s ease;
+  color: #e43c5c !important;
+  position: relative;
+}
+
+.icofont-navigation-menu::before,
+.icofont-close::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: white;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
 /*# sourceMappingURL=style.css.map */
