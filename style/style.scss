@@ -165,19 +165,6 @@ h4 {
   transition: all 0.55s ease-in-out;
 }
 
-// laader
-#loader {
-  background: url("../asset/img/background/loader.gif");
-  background-size: cover;
-  background-position: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 9999;
-}
-
 // ====================responsive brekpoints ====================
 
 @media (min-width: 992px) and (max-width: 1100px) {
