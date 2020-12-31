@@ -21,3 +21,8 @@ window.onscroll = function () {
            navbar.classList.remove('active_changed_navbar')
      }
 }
+
+// animation web load preloader
+$(window).load(function () {
+     $('.loader').fadeOut('slow')
+});
