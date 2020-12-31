@@ -22,3 +22,9 @@ window.onscroll = function () {
      }
 }
 
+
+// / =========================================== animated preloader      ===========================================
+var preloader = document.getElementById('loader');
+window.addEventListener('load' ,function () {
+     preloader.style.display = "none";
+})
