@@ -24,5 +24,5 @@ window.onscroll = function () {
 
 // animation web load preloader
 $(window).load(function () {
-     $('.loader').fadeOut('slow')
+     $('#loader').fadeOut('slow')
 });

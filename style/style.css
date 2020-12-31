@@ -178,7 +178,7 @@ h4 sup {
   transition: all 0.55s ease-in-out;
 }
 
-.loader {
+#loader {
   background: url("../asset/img/background/loader.gif");
   background-size: cover;
   background-position: center;
