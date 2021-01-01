@@ -1,0 +1,17 @@
+.navbar {
+  &-brand {
+    #logo {
+      border-radius: 5px;
+      width: 230px;
+    }
+  }
+
+  .nav-item {
+    padding: 10px 0 10px 25px;
+  }
+  .nav-link {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+  }
+}
