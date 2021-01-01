@@ -195,7 +195,7 @@ h4 sup {
 
 @media (max-width: 991px) {
   #navbarNavDropdown {
-    overflow: scroll;
+    overflow-y: scroll;
     background-color: #313131;
     color: white;
     height: 80vh;
