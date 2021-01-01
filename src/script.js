@@ -15,7 +15,8 @@ navbar_toggler_icon.addEventListener('click',function () {
 const navbar = document.querySelector('.navbar'); ///mengambil sebuah class pembungkus navbar
 window.onscroll = function () {
      let topWindowSchorllingChanged = window.scrollY; //membuat sbuah variabel dimana web sedang di schroll
-     if (topWindowSchorllingChanged > 100) { //
+
+     if (topWindowSchorllingChanged > 100) {
           navbar.classList.add('active_changed_navbar')
      }else {
            navbar.classList.remove('active_changed_navbar')
