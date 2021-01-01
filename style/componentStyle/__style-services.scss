@@ -1,0 +1,45 @@
+#service {
+  .iconts_box {
+    margin-top: 35px;
+    text-align: center;
+    box-shadow: 2px 0 35px 0 rgba(68, 88, 144, 0.1);
+    padding: 60px 30px;
+    i {
+      font-size: 50px;
+      color: #e43c5c;
+      margin-bottom: 20px;
+    }
+    h6 {
+      margin-top: 10px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+    p {
+      font-size: 15px;
+      width: 80%;
+      margin: 5px auto 0 auto;
+    }
+  }
+
+  .iconts_box_mini {
+    margin-top: 30px;
+    box-shadow: 2px 0 35px 0 rgba(68, 88, 144, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+    padding: 20px;
+    h3 {
+      font-size: 16px;
+      font-weight: bold;
+    }
+    i {
+      color: #e43c5c;
+      margin-right: 10px;
+      font-size: 32px;
+    }
+  }
+}
+
+body {
+  height: 1000vh;
+}

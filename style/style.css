@@ -1,5 +1,5 @@
-body {
-  height: 200vh;
+#about {
+  margin-bottom: 100px;
 }
 
 #about .row {
@@ -131,9 +131,65 @@ body {
   font-weight: 600;
 }
 
-section {
-  margin-top: 50px;
+#service .iconts_box {
+  margin-top: 35px;
+  text-align: center;
+  -webkit-box-shadow: 2px 0 35px 0 rgba(68, 88, 144, 0.1);
+          box-shadow: 2px 0 35px 0 rgba(68, 88, 144, 0.1);
+  padding: 60px 30px;
+}
+
+#service .iconts_box i {
+  font-size: 50px;
+  color: #e43c5c;
   margin-bottom: 20px;
+}
+
+#service .iconts_box h6 {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#service .iconts_box p {
+  font-size: 15px;
+  width: 80%;
+  margin: 5px auto 0 auto;
+}
+
+#service .iconts_box_mini {
+  margin-top: 30px;
+  -webkit-box-shadow: 2px 0 35px 0 rgba(68, 88, 144, 0.1);
+          box-shadow: 2px 0 35px 0 rgba(68, 88, 144, 0.1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
+  padding: 20px;
+}
+
+#service .iconts_box_mini h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#service .iconts_box_mini i {
+  color: #e43c5c;
+  margin-right: 10px;
+  font-size: 32px;
+}
+
+body {
+  height: 1000vh;
+}
+
+section {
+  margin-top: 80px;
 }
 
 .description_p {
