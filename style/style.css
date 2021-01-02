@@ -204,6 +204,48 @@ body {
   height: 1000vh;
 }
 
+#cta {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(2, 2, 2, 0.5)), to(rgba(0, 0, 0, 0.8))), url("https://bootstrapmade.com/demo/templates/Tempo/assets/img/cta-bg.jpg") center center;
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)), url("https://bootstrapmade.com/demo/templates/Tempo/assets/img/cta-bg.jpg") center center;
+  height: 279px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+#cta .content_cta h2 {
+  letter-spacing: 1px;
+}
+
+#cta .content_cta p {
+  width: 80%;
+  margin: 10px auto 0 auto;
+}
+
+#cta .btn {
+  text-transform: uppercase;
+  margin-top: 20px;
+  color: white;
+  border-radius: 50px;
+  border: 1px solid white;
+  padding: 8px 40px;
+  font-size: 16px;
+}
+
+#cta .btn:hover {
+  background-color: #e43c5c;
+  border-color: #e43c5c;
+  -webkit-transition: all 0.55s ease;
+  transition: all 0.55s ease;
+}
+
 section {
   margin-top: 80px;
 }

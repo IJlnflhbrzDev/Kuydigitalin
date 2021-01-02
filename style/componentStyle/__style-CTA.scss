@@ -1,0 +1,33 @@
+#cta {
+  background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.8)),
+    url("https://bootstrapmade.com/demo/templates/Tempo/assets/img/cta-bg.jpg")
+      center center;
+  height: 279px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  .content_cta {
+    h2 {
+      letter-spacing: 1px;
+    }
+    p {
+      width: 80%;
+      margin: 10px auto 0 auto;
+    }
+  }
+  .btn {
+    text-transform: uppercase;
+    margin-top: 20px;
+    color: white;
+    border-radius: 50px;
+    border: 1px solid white;
+    padding: 8px 40px;
+    font-size: 16px;
+    &:hover {
+      background-color: #e43c5c;
+      border-color: #e43c5c;
+      transition: all 0.55s ease;
+    }
+  }
+}
