@@ -8,7 +8,7 @@
 }
 
 #about .about_section_content p {
-  font-size: 17px;
+  font-size: 16px;
 }
 
 #about .about_section_content ul {
@@ -33,6 +33,23 @@
   padding-left: 30px;
   padding-right: 30px;
   text-align: center;
+}
+
+@media (max-width: 576px) {
+  #about .typograffy {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+  }
+  #about .typograffy ul {
+    margin-bottom: 20px;
+  }
+  #about .typograffy ul li {
+    font-size: 16px;
+  }
+  #about .typograffy ul li i {
+    font-size: 19px;
+  }
 }
 
 .hero {
