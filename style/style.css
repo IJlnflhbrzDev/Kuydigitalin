@@ -152,25 +152,55 @@
   text-align: center;
   -webkit-box-shadow: 2px 0 35px 0 rgba(68, 88, 144, 0.1);
           box-shadow: 2px 0 35px 0 rgba(68, 88, 144, 0.1);
-  padding: 60px 30px;
 }
 
 #service .iconts_box i {
   font-size: 50px;
   color: #e43c5c;
-  margin-bottom: 20px;
 }
 
 #service .iconts_box h6 {
-  margin-top: 10px;
+  margin-top: 20px;
   font-size: 18px;
   font-weight: bold;
 }
 
 #service .iconts_box p {
-  font-size: 15px;
+  font-size: 14px;
   width: 80%;
   margin: 5px auto 0 auto;
+}
+
+#service .iconts_box {
+  position: relative;
+  overflow: hidden;
+  padding: 60px 30px;
+  z-index: 1;
+}
+
+#service .iconts_box:hover::before {
+  background: #e43c5c;
+  top: 0;
+}
+
+#service .iconts_box::before {
+  content: "";
+  top: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  z-index: -1;
+}
+
+#service .iconts_box:hover {
+  color: white;
+}
+
+#service .iconts_box:hover i {
+  color: white;
 }
 
 #service .iconts_box_mini {

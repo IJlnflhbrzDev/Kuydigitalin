@@ -3,24 +3,48 @@
     margin-top: 35px;
     text-align: center;
     box-shadow: 2px 0 35px 0 rgba(68, 88, 144, 0.1);
-    padding: 60px 30px;
     i {
       font-size: 50px;
       color: #e43c5c;
-      margin-bottom: 20px;
     }
     h6 {
-      margin-top: 10px;
+      margin-top: 20px;
       font-size: 18px;
       font-weight: bold;
     }
     p {
-      font-size: 15px;
+      font-size: 14px;
       width: 80%;
       margin: 5px auto 0 auto;
     }
   }
+  .iconts_box {
+    position: relative;
+    overflow: hidden;
+    padding: 60px 30px;
+    z-index: 1;
+  }
+  .iconts_box:hover::before {
+    background: #e43c5c;
+    top: 0;
+  }
+  .iconts_box::before {
+    content: "";
+    top: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    transition: all 0.4s;
+    z-index: -1;
+  }
+  .iconts_box:hover {
+    color: white;
+  }
 
+  .iconts_box:hover i {
+    color: white;
+  }
   .iconts_box_mini {
     margin-top: 30px;
     box-shadow: 2px 0 35px 0 rgba(68, 88, 144, 0.1);
