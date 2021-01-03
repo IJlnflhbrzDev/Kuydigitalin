@@ -11,19 +11,16 @@
     align-items: center;
     flex-direction: column;
     text-align: center;
-    background-color: #f9f9f9;
     border-radius: 10px;
     padding: 60px 10px;
     position: relative;
     transition: all 0.65s ease;
-    &:hover {
-      padding: 40px 8px;
-      background-color: aqua;
-      transition: all 0.55s ease;
-      .recomended {
-        border: 2px solid aqua;
-      }
+    box-shadow: 1px 1px 10px peru;
+    h3 {
+      font-weight: bold;
+      font-size: 20px;
     }
+
     .section_title {
       position: absolute;
       top: 10px;
@@ -40,9 +37,7 @@
     margin-bottom: 10px;
     font-size: 15px;
   }
-  h3 {
-    font-size: 20px;
-  }
+
   h4 {
     position: relative;
     sup {
