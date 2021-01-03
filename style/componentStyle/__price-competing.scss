@@ -1,0 +1,76 @@
+#price_competing {
+  .btn {
+    margin-top: 20px;
+  }
+  .btn-outline-danger {
+    padding: 5px 20px;
+  }
+  .competing_title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 60px 10px;
+    position: relative;
+    transition: all 0.65s ease;
+    &:hover {
+      padding: 40px 8px;
+      background-color: aqua;
+      transition: all 0.55s ease;
+      .recomended {
+        border: 2px solid aqua;
+      }
+    }
+    .section_title {
+      position: absolute;
+      top: 10px;
+    }
+  }
+  .recomended {
+    border: 2px solid #e43c5c;
+  }
+  ul {
+    margin-top: 20px;
+  }
+  li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    font-size: 15px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  h4 {
+    position: relative;
+    sup {
+      position: absolute;
+      font-size: 20px;
+      left: -10px;
+      top: 15px;
+    }
+    span {
+      font-size: 19px;
+      color: rgb(155, 153, 153);
+      text-decoration: line-through;
+    }
+  }
+  .competing_mutet {
+    text-decoration: line-through;
+    color: rgb(155, 153, 153);
+    font-style: italic;
+  }
+  .competing_btn {
+    background-color: #e43c5c;
+    color: white;
+    padding: 5px 20px;
+
+    &:hover {
+      background-color: #f5637e;
+    }
+  }
+}
+
+// #e43c5c
