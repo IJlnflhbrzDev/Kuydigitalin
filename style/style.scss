@@ -2,7 +2,7 @@
   "./componentStyle/_style-navbar", "./componentStyle/_style-services",
   "./componentStyle/_style-CTA", "./componentStyle/_style-portfolio",
   "./componentStyle/_price-competing", "./componentStyle/_style-faq",
-  "./componentStyle/_style-team";
+  "./componentStyle/_style-team", "./componentStyle/_style-contact";
 
 section {
   margin-top: 80px;
@@ -118,7 +118,7 @@ h4 {
 @media (max-width: 500px) {
   html,
   body {
-    overflow-x: hidden;
+    overflow-x: hidden !important;
   }
 }
 @media (max-width: 631px) {
