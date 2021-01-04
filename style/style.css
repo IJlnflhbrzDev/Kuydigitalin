@@ -424,14 +424,13 @@ body {
 
 #faq .accordion-button {
   text-align: left;
-  border: none;
-  font-size: 18px;
+  border: 1px solid skyblue;
+  font-size: 15px;
   margin-top: 0;
   font-weight: 500;
-}
-
-#faq .accordion-button:hover {
-  color: #e43c5c;
+  background-color: #e43c5c;
+  color: white;
+  padding-left: 30px;
 }
 
 #faq .container {
