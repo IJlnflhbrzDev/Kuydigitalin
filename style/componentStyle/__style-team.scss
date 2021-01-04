@@ -1,0 +1,72 @@
+#team {
+  .card {
+    border: none;
+    margin-bottom: 20px;
+    &:hover {
+      .social-media {
+        visibility: visible;
+        transform: scale(1);
+      }
+    }
+    img {
+      border-top-left-radius: 120px;
+    }
+    .social-media {
+      width: 100%;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      position: absolute;
+      padding: 15px 20px;
+      background-color: white;
+      opacity: 0.8;
+      transition: all 0.55s ease;
+      a {
+        text-decoration: none;
+        color: black;
+        &:hover {
+          color: #e43c5c;
+          transition: all 0.44s ease;
+        }
+        i {
+          font-weight: bold;
+          font-size: 18px;
+        }
+      }
+      transform: scale(0);
+      visibility: hidden;
+    }
+  }
+  .card-body {
+    h5 {
+      font-size: 17px;
+      font-weight: 700;
+      letter-spacing: 0.55px;
+    }
+    small {
+      color: rgb(169, 166, 166);
+    }
+  }
+}
+
+@media (max-width: 1600px) and (min-width: 1200px) {
+  .social-media {
+    top: 66%;
+  }
+}
+@media (max-width: 768px) {
+  .social-media {
+    bottom: -1px !important;
+    opacity: 1 !important;
+  }
+}
+@media (max-width: 992px) {
+  .social-media {
+    top: 72% !important;
+  }
+}
+@media (max-width: 1200px) {
+  .social-media {
+    top: 78%;
+  }
+}
