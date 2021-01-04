@@ -4,9 +4,6 @@
   "./componentStyle/_price-competing", "./componentStyle/_style-faq",
   "./componentStyle/_style-team";
 
-body {
-  overflow-x: hidden;
-}
 section {
   margin-top: 80px;
 }
@@ -118,7 +115,12 @@ h4 {
     }
   }
 }
-
+@media (max-width: 500px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+}
 @media (max-width: 631px) {
   #logo {
     width: 200px !important;

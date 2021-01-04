@@ -554,10 +554,6 @@ body {
   }
 }
 
-body {
-  overflow-x: hidden;
-}
-
 section {
   margin-top: 80px;
 }
@@ -675,6 +671,13 @@ h4 sup {
 @media (min-width: 992px) and (max-width: 1100px) {
   .navbar .nav-link {
     padding: 10px 0 10px 5px !important;
+  }
+}
+
+@media (max-width: 500px) {
+  html,
+  body {
+    overflow-x: hidden;
   }
 }
 
