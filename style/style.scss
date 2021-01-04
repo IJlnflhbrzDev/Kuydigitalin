@@ -1,8 +1,9 @@
 @import "./componentStyle/_style-about", "./componentStyle/_style-header",
   "./componentStyle/_style-navbar", "./componentStyle/_style-services",
   "./componentStyle/_style-CTA", "./componentStyle/_style-portfolio",
-  "./componentStyle/_price-competing";
+  "./componentStyle/_price-competing", "./componentStyle/_style-faq";
 
+html,
 body {
   overflow-x: hidden;
 }
@@ -83,6 +84,7 @@ h4 {
 .active_changed_navbar {
   background-color: #313131;
   transition: all 0.55s ease-in-out;
+  z-index: 99999;
 }
 // / =========================================== animated preloader ===========================================
 #loader {

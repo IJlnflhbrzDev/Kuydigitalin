@@ -422,6 +422,52 @@ body {
   background-color: #f5637e;
 }
 
+#faq .accordion-button {
+  text-align: left;
+  border: none;
+  font-size: 18px;
+  margin-top: 0;
+  font-weight: 500;
+}
+
+#faq .accordion-button:hover {
+  color: #e43c5c;
+}
+
+#faq .container {
+  padding: 0 120px;
+}
+
+#faq .accordion-body {
+  font-size: 17px;
+  color: #6f6f6f;
+}
+
+@media (max-width: 992px) {
+  #faq .accordion-button {
+    font-size: 17px;
+  }
+  #faq .accordion-body {
+    font-size: 16px;
+  }
+  #faq .container {
+    padding: 0;
+  }
+}
+
+@media (max-width: 400px) {
+  #faq .accordion-button {
+    font-size: 14px;
+  }
+  #faq .accordion-body {
+    font-size: 13px;
+  }
+  #faq .container {
+    padding: 0;
+  }
+}
+
+html,
 body {
   overflow-x: hidden;
 }
@@ -512,6 +558,7 @@ h4 sup {
   background-color: #313131;
   -webkit-transition: all 0.55s ease-in-out;
   transition: all 0.55s ease-in-out;
+  z-index: 99999;
 }
 
 #loader {

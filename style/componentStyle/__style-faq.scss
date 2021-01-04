@@ -1,0 +1,45 @@
+#faq {
+  .accordion-button {
+    text-align: left;
+    border: none;
+    font-size: 18px;
+    margin-top: 0;
+    font-weight: 500;
+    &:hover {
+      color: #e43c5c;
+    }
+  }
+  .container {
+    padding: 0 120px;
+  }
+  .accordion-body {
+    font-size: 17px;
+    color: rgb(111, 111, 111);
+  }
+}
+@media (max-width: 992px) {
+  #faq {
+    .accordion-button {
+      font-size: 17px;
+    }
+    .accordion-body {
+      font-size: 16px;
+    }
+    .container {
+      padding: 0;
+    }
+  }
+}
+@media (max-width: 400px) {
+  #faq {
+    .accordion-button {
+      font-size: 14px;
+    }
+    .accordion-body {
+      font-size: 13px;
+    }
+    .container {
+      padding: 0;
+    }
+  }
+}
