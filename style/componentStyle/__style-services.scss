@@ -5,7 +5,7 @@
     box-shadow: 2px 0 35px 0 rgba(68, 88, 144, 0.1);
     i {
       font-size: 50px;
-      color: #e43c5c;
+      color: #0275d8;
     }
     h6 {
       margin-top: 20px;
@@ -25,7 +25,7 @@
     z-index: 1;
   }
   .iconts_box:hover::before {
-    background: #e43c5c;
+    background: #0275d8;
     top: 0;
   }
   .iconts_box::before {
@@ -57,7 +57,7 @@
       font-weight: bold;
     }
     i {
-      color: #e43c5c;
+      color: #0275d8;
       margin-right: 10px;
       font-size: 32px;
     }

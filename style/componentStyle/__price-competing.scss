@@ -15,7 +15,7 @@
     padding: 60px 10px;
     position: relative;
     transition: all 0.65s ease;
-    box-shadow: 1px 1px 10px peru;
+    box-shadow: 1px 1px 10px #5797d0;
     h3 {
       font-weight: bold;
       font-size: 20px;
@@ -27,7 +27,7 @@
     }
   }
   .recomended {
-    border: 2px solid #e43c5c;
+    border: 2px solid #0275d8;
   }
   ul {
     margin-top: 20px;
@@ -58,14 +58,14 @@
     font-style: italic;
   }
   .competing_btn {
-    background-color: #e43c5c;
+    background-color: #0275d8;
     color: white;
     padding: 5px 20px;
 
     &:hover {
-      background-color: #f5637e;
+      background-color: rgb(23, 84, 138);
     }
   }
 }
 
-// #e43c5c
+// #0275d8

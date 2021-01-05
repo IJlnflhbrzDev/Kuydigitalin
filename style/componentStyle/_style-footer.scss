@@ -25,10 +25,10 @@ footer {
           color: #777777;
           font-size: 15px;
           &:hover {
-            color: #e43c5c;
+            color: #0275d8;
           }
           i {
-            color: #e43c5c;
+            color: #0275d8;
           }
         }
       }
@@ -42,7 +42,7 @@ footer {
       padding: 6px 15px;
       border-radius: 125px;
       margin-right: 5px;
-      border: 1px solid #e43c5c;
+      border: 1px solid #0275d8;
       outline: none !important;
     }
     .btn-subscribe {
@@ -50,13 +50,13 @@ footer {
       position: absolute;
       left: 80%;
       top: -2px;
-      background-color: #e43c5c;
+      background-color: #0275d8;
       border-radius: 60px;
       text-decoration: none;
       color: white;
-      box-shadow: 2px 2px 5px #d34761;
+      box-shadow: 2px 2px 5px #0275d8;
       &:hover {
-        background: #af344b;
+        background: #266ca9;
       }
     }
   }
@@ -73,14 +73,13 @@ footer {
 
         a {
           text-decoration: none;
-          color: black;
+          color: #0275d8;
         }
       }
       span {
         font-size: 15px;
-        code {
-          font-weight: bold;
-          font-family: sans-serif;
+        strong {
+          color: #0275d8 !important;
         }
       }
     }
@@ -95,10 +94,10 @@ footer {
         color: white;
         padding: 10px;
         line-height: 1;
-        background-color: #e43c5c;
+        background-color: #0275d8;
         margin-right: 10px;
         &:hover {
-          background-color: #d34761;
+          background-color: #0275d8;
         }
 
         i {
