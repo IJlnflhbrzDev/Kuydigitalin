@@ -462,6 +462,13 @@
   }
 }
 
+@media (max-width: 576px) {
+  .accordion-item {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
+
 #team .card {
   border: none;
   margin-bottom: 20px;
@@ -883,7 +890,7 @@ h4 sup {
   }
 }
 
-@media (max-width: 500px) {
+@media (min-width: 190px) and (max-width: 500px) {
   html,
   body {
     overflow-x: hidden !important;

@@ -116,7 +116,7 @@ h4 {
     }
   }
 }
-@media (max-width: 500px) {
+@media (min-width: 190px) and (max-width: 500px) {
   html,
   body {
     overflow-x: hidden !important;
