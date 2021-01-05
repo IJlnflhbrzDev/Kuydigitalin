@@ -29,6 +29,11 @@
     color: #e43c5c;
     font-weight: bold;
   }
+  .btn {
+    border-radius: 120px;
+    padding: 10px 30px;
+    font-size: 18px;
+  }
 }
 @media (max-width: 768px) {
   .directions {

@@ -594,6 +594,12 @@
   border-radius: 50%;
 }
 
+#contact .btn {
+  border-radius: 120px;
+  padding: 10px 30px;
+  font-size: 18px;
+}
+
 @media (max-width: 768px) {
   .directions {
     display: -webkit-box;
