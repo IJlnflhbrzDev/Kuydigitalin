@@ -286,6 +286,18 @@
           align-items: center;
 }
 
+#portfolio .filter-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 #portfolio button {
   outline: none;
   border: none;
@@ -294,7 +306,7 @@
   margin-left: 10px;
 }
 
-#portfolio button:active, #portfolio button:focus {
+#portfolio button:focus {
   background-color: #0275d8;
   color: white;
 }
@@ -321,6 +333,11 @@
   margin-bottom: 10px;
   margin-left: 10px;
   border-radius: 10px;
+}
+
+.active_filter {
+  background-color: #91d802;
+  color: white;
 }
 
 .item {
