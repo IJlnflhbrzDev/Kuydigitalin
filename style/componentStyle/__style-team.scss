@@ -54,6 +54,25 @@
     top: 66%;
   }
 }
+@media (min-width: 190px) and(max-width : 576px) {
+  #team {
+    .card {
+      width: 63%;
+      margin: 10px auto 0 auto;
+    }
+  }
+}
+@media (max-width: 350px) {
+  #team {
+    .card {
+      .image-team {
+        img {
+          border-radius: 0 !important;
+        }
+      }
+    }
+  }
+}
 @media (max-width: 768px) {
   .social-media {
     bottom: -1px !important;
