@@ -294,6 +294,11 @@
   margin-left: 10px;
 }
 
+#portfolio button:active, #portfolio button:focus {
+  background-color: #0275d8;
+  color: white;
+}
+
 #portfolio .product {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -318,9 +323,12 @@
   border-radius: 10px;
 }
 
-.active_filter {
-  background-color: #0275d8;
-  color: white;
+.item {
+  display: none;
+}
+
+.show {
+  display: block;
 }
 
 @media (max-width: 992px) {

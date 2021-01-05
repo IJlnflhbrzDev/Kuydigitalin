@@ -11,6 +11,11 @@
     padding: 3px 15px;
     border-radius: 20px;
     margin-left: 10px;
+    &:active,
+    &:focus {
+      background-color: #0275d8;
+      color: white;
+    }
   }
   .product {
     display: flex;
@@ -27,9 +32,12 @@
     border-radius: 10px;
   }
 }
-.active_filter {
-  background-color: #0275d8;
-  color: white;
+// animated clicked image filters
+.item {
+  display: none;
+}
+.show {
+  display: block;
 }
 
 @media (max-width: 992px) {
