@@ -566,7 +566,7 @@
 @media (min-width: 190px) and (max-width: 576px) {
   #team .card {
     width: 63%;
-    margin: 10px auto 0 auto;
+    margin: 10px auto 30px auto;
   }
 }
 
