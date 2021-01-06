@@ -545,9 +545,9 @@
   }
 }
 
-#contact .contact_location,
-#contact .contact_email,
-#contact .contact_call {
+.contact .contact_location,
+.contact .contact_email,
+.contact .contact_call {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -560,21 +560,21 @@
   margin-bottom: 20px;
 }
 
-#contact .contact_location h3,
-#contact .contact_email h3,
-#contact .contact_call h3 {
+.contact .contact_location h3,
+.contact .contact_email h3,
+.contact .contact_call h3 {
   font-size: 20px;
 }
 
-#contact .contact_location p,
-#contact .contact_email p,
-#contact .contact_call p {
+.contact .contact_location p,
+.contact .contact_email p,
+.contact .contact_call p {
   font-size: 15px;
   color: #9b9b9b;
   margin-top: -4px;
 }
 
-#contact i {
+.contact i {
   font-size: 20px;
   text-decoration: none;
   margin-right: 20px;
@@ -583,13 +583,13 @@
   font-weight: bold;
 }
 
-#contact i::before {
+.contact i::before {
   padding: 10px;
   background-color: #f8f8f8;
   border-radius: 50%;
 }
 
-#contact .btn {
+.contact .btn {
   border-radius: 120px;
   padding: 10px 30px;
   font-size: 18px;
