@@ -1,58 +1,18 @@
 #portfolio {
-  .category {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-  }
-  .filter-list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  button {
-    outline: none;
-    border: none;
-    padding: 3px 15px;
-    border-radius: 20px;
-    margin-left: 10px;
-
-    &:focus {
-      background-color: #0275d8;
-      color: white;
-    }
-  }
-  .product {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-  }
   img {
-    max-width: 350px;
-    min-width: 300px;
-    margin-bottom: 10px;
-    margin-left: 10px;
+    width: 100%;
+    margin-bottom: 15px;
     border-radius: 10px;
   }
-}
-.active_filter {
-  background-color: #91d802;
-  color: white;
-}
-// animated clicked image filters
-.item {
-  display: none;
-}
-.show {
-  display: block;
-}
-
-@media (max-width: 992px) {
-  #portfolio {
-    img {
-      width: 200px;
+  .container {
+    ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      li {
+        margin-right: 10px;
+      }
     }
   }
 }
